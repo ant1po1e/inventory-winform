@@ -36,20 +36,20 @@
             label3 = new Label();
             passwordBox = new TextBox();
             label1 = new Label();
-            label4 = new Label();
             label5 = new Label();
+            label4 = new Label();
             SuspendLayout();
             // 
             // usernameBox
             // 
             usernameBox.BackColor = Color.LightGray;
-            usernameBox.BorderStyle = BorderStyle.None;
+            usernameBox.BorderStyle = BorderStyle.FixedSingle;
             usernameBox.Font = new Font("Nirmala UI", 11.7818184F, FontStyle.Regular, GraphicsUnit.Point, 0);
             usernameBox.ForeColor = Color.DimGray;
-            usernameBox.Location = new Point(47, 230);
+            usernameBox.Location = new Point(47, 223);
             usernameBox.Name = "usernameBox";
             usernameBox.PlaceholderText = "Username";
-            usernameBox.Size = new Size(199, 24);
+            usernameBox.Size = new Size(199, 31);
             usernameBox.TabIndex = 1;
             // 
             // Username
@@ -57,7 +57,7 @@
             Username.AutoSize = true;
             Username.Font = new Font("Nirmala UI", 9.818182F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Username.ForeColor = Color.DarkGray;
-            Username.Location = new Point(47, 207);
+            Username.Location = new Point(47, 200);
             Username.Name = "Username";
             Username.Size = new Size(86, 20);
             Username.TabIndex = 1;
@@ -68,7 +68,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Nirmala UI", 9.818182F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.DarkGray;
-            label2.Location = new Point(47, 264);
+            label2.Location = new Point(47, 257);
             label2.Name = "label2";
             label2.Size = new Size(87, 20);
             label2.TabIndex = 2;
@@ -117,14 +117,14 @@
             // passwordBox
             // 
             passwordBox.BackColor = Color.LightGray;
-            passwordBox.BorderStyle = BorderStyle.None;
+            passwordBox.BorderStyle = BorderStyle.FixedSingle;
             passwordBox.Font = new Font("Nirmala UI", 11.7818184F, FontStyle.Regular, GraphicsUnit.Point, 0);
             passwordBox.ForeColor = Color.DimGray;
-            passwordBox.Location = new Point(47, 287);
+            passwordBox.Location = new Point(47, 280);
             passwordBox.Name = "passwordBox";
             passwordBox.PasswordChar = '*';
             passwordBox.PlaceholderText = "password";
-            passwordBox.Size = new Size(199, 24);
+            passwordBox.Size = new Size(199, 31);
             passwordBox.TabIndex = 2;
             // 
             // label1
@@ -138,27 +138,27 @@
             label1.TabIndex = 15;
             label1.Text = "Dont have an account?";
             // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Nirmala UI", 9.818182F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.ForeColor = Color.DarkGray;
-            label4.Location = new Point(81, 161);
-            label4.Name = "label4";
-            label4.Size = new Size(128, 20);
-            label4.TabIndex = 16;
-            label4.Text = "Login To Continue";
-            // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Nirmala UI", 24.2181816F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.Black;
-            label5.Location = new Point(87, 111);
+            label5.Location = new Point(87, 107);
             label5.Name = "label5";
             label5.Size = new Size(120, 50);
             label5.TabIndex = 17;
             label5.Text = "Login";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Nirmala UI", 9.818182F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.DarkGray;
+            label4.Location = new Point(84, 157);
+            label4.Name = "label4";
+            label4.Size = new Size(127, 20);
+            label4.TabIndex = 16;
+            label4.Text = "Login to Continue";
             // 
             // LoginForm
             // 
@@ -181,7 +181,6 @@
             Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
-            Load += LoginForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -195,7 +194,7 @@
         private Label label3;
         private TextBox passwordBox;
         private Label label1;
-        private Label label4;
         private Label label5;
+        private Label label4;
     }
 }

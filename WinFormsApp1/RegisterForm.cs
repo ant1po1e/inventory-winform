@@ -137,5 +137,10 @@ namespace WinFormsApp1
             login.Show();
             this.Hide();
         }
+
+        private void usernameBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

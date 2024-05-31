@@ -40,13 +40,19 @@
             button5 = new Button();
             idBox = new TextBox();
             searchBox = new TextBox();
+            panel1 = new Panel();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)totalBox).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // dataGridView1
             // 
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.AllowUserToDeleteRows = false;
+            dataGridView1.AllowUserToResizeColumns = false;
+            dataGridView1.AllowUserToResizeRows = false;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(39, 77);
             dataGridView1.Name = "dataGridView1";
@@ -59,7 +65,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(400, 412);
+            button1.Location = new Point(400, 427);
             button1.Name = "button1";
             button1.Size = new Size(86, 26);
             button1.TabIndex = 1;
@@ -79,7 +85,7 @@
             descriptionBox.Location = new Point(194, 288);
             descriptionBox.Multiline = true;
             descriptionBox.Name = "descriptionBox";
-            descriptionBox.Size = new Size(200, 150);
+            descriptionBox.Size = new Size(200, 165);
             descriptionBox.TabIndex = 3;
             // 
             // totalBox
@@ -101,16 +107,17 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(642, 289);
+            pictureBox1.BackColor = Color.White;
+            pictureBox1.Location = new Point(2, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(120, 120);
+            pictureBox1.Size = new Size(118, 118);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
             // 
             // button3
             // 
-            button3.Location = new Point(492, 412);
+            button3.Location = new Point(492, 427);
             button3.Name = "button3";
             button3.Size = new Size(86, 26);
             button3.TabIndex = 8;
@@ -120,7 +127,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(584, 412);
+            button4.Location = new Point(584, 427);
             button4.Name = "button4";
             button4.Size = new Size(86, 26);
             button4.TabIndex = 9;
@@ -130,7 +137,7 @@
             // 
             // button5
             // 
-            button5.Location = new Point(676, 412);
+            button5.Location = new Point(676, 427);
             button5.Name = "button5";
             button5.Size = new Size(86, 26);
             button5.TabIndex = 10;
@@ -154,23 +161,32 @@
             searchBox.TabIndex = 12;
             searchBox.TextChanged += textBox1_TextChanged;
             // 
+            // panel1
+            // 
+            panel1.BackColor = Color.Black;
+            panel1.Controls.Add(pictureBox1);
+            panel1.Location = new Point(642, 289);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(122, 122);
+            panel1.TabIndex = 13;
+            // 
             // Inventory
             // 
             AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 471);
             Controls.Add(searchBox);
             Controls.Add(idBox);
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
-            Controls.Add(pictureBox1);
             Controls.Add(button2);
             Controls.Add(totalBox);
             Controls.Add(descriptionBox);
             Controls.Add(nameBox);
             Controls.Add(button1);
             Controls.Add(dataGridView1);
+            Controls.Add(panel1);
             Name = "Inventory";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Inventory";
@@ -178,6 +194,7 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)totalBox).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -196,5 +213,6 @@
         private Button button5;
         private TextBox idBox;
         private TextBox searchBox;
+        private Panel panel1;
     }
 }

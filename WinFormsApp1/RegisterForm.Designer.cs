@@ -39,6 +39,7 @@
             passwordBox = new TextBox();
             label6 = new Label();
             emailBox = new TextBox();
+            label4 = new Label();
             SuspendLayout();
             // 
             // label5
@@ -46,7 +47,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Nirmala UI", 24.2181816F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.Black;
-            label5.Location = new Point(63, 82);
+            label5.Location = new Point(66, 49);
             label5.Name = "label5";
             label5.Size = new Size(164, 50);
             label5.TabIndex = 27;
@@ -83,7 +84,7 @@
             checkBox1.Location = new Point(138, 317);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(108, 19);
-            checkBox1.TabIndex = 23;
+            checkBox1.TabIndex = 4;
             checkBox1.Text = "Show Password";
             checkBox1.UseVisualStyleBackColor = true;
             checkBox1.CheckedChanged += checkBox1_CheckedChanged_1;
@@ -98,16 +99,17 @@
             button1.Location = new Point(47, 342);
             button1.Name = "button1";
             button1.Size = new Size(199, 39);
-            button1.TabIndex = 22;
+            button1.TabIndex = 5;
             button1.Text = "Register";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Nirmala UI", 9.818182F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.DarkGray;
-            label2.Location = new Point(47, 264);
+            label2.Location = new Point(47, 257);
             label2.Name = "label2";
             label2.Size = new Size(87, 20);
             label2.TabIndex = 21;
@@ -118,7 +120,7 @@
             Username.AutoSize = true;
             Username.Font = new Font("Nirmala UI", 9.818182F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Username.ForeColor = Color.DarkGray;
-            Username.Location = new Point(47, 207);
+            Username.Location = new Point(47, 143);
             Username.Name = "Username";
             Username.Size = new Size(86, 20);
             Username.TabIndex = 20;
@@ -127,34 +129,35 @@
             // usernameBox
             // 
             usernameBox.BackColor = Color.LightGray;
-            usernameBox.BorderStyle = BorderStyle.None;
+            usernameBox.BorderStyle = BorderStyle.FixedSingle;
             usernameBox.Font = new Font("Nirmala UI", 11.7818184F, FontStyle.Regular, GraphicsUnit.Point, 0);
             usernameBox.ForeColor = Color.DimGray;
-            usernameBox.Location = new Point(47, 230);
+            usernameBox.Location = new Point(47, 166);
             usernameBox.Name = "usernameBox";
             usernameBox.PlaceholderText = "Username";
-            usernameBox.Size = new Size(199, 24);
-            usernameBox.TabIndex = 18;
+            usernameBox.Size = new Size(199, 31);
+            usernameBox.TabIndex = 1;
+            usernameBox.TextChanged += usernameBox_TextChanged;
             // 
             // passwordBox
             // 
             passwordBox.BackColor = Color.LightGray;
-            passwordBox.BorderStyle = BorderStyle.None;
+            passwordBox.BorderStyle = BorderStyle.FixedSingle;
             passwordBox.Font = new Font("Nirmala UI", 11.7818184F, FontStyle.Regular, GraphicsUnit.Point, 0);
             passwordBox.ForeColor = Color.DimGray;
-            passwordBox.Location = new Point(47, 287);
+            passwordBox.Location = new Point(47, 280);
             passwordBox.Name = "passwordBox";
             passwordBox.PasswordChar = '*';
             passwordBox.PlaceholderText = "password";
-            passwordBox.Size = new Size(199, 24);
-            passwordBox.TabIndex = 19;
+            passwordBox.Size = new Size(199, 31);
+            passwordBox.TabIndex = 3;
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Nirmala UI", 9.818182F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.DarkGray;
-            label6.Location = new Point(47, 153);
+            label6.Location = new Point(47, 200);
             label6.Name = "label6";
             label6.Size = new Size(51, 20);
             label6.TabIndex = 29;
@@ -163,14 +166,25 @@
             // emailBox
             // 
             emailBox.BackColor = Color.LightGray;
-            emailBox.BorderStyle = BorderStyle.None;
+            emailBox.BorderStyle = BorderStyle.FixedSingle;
             emailBox.Font = new Font("Nirmala UI", 11.7818184F, FontStyle.Regular, GraphicsUnit.Point, 0);
             emailBox.ForeColor = Color.DimGray;
-            emailBox.Location = new Point(47, 176);
+            emailBox.Location = new Point(47, 223);
             emailBox.Name = "emailBox";
             emailBox.PlaceholderText = "email@gmail.com";
-            emailBox.Size = new Size(199, 24);
-            emailBox.TabIndex = 28;
+            emailBox.Size = new Size(199, 31);
+            emailBox.TabIndex = 2;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Nirmala UI", 9.818182F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.DarkGray;
+            label4.Location = new Point(82, 99);
+            label4.Name = "label4";
+            label4.Size = new Size(130, 20);
+            label4.TabIndex = 30;
+            label4.Text = "Create an Account";
             // 
             // RegisterForm
             // 
@@ -178,6 +192,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(292, 474);
+            Controls.Add(label4);
             Controls.Add(label6);
             Controls.Add(emailBox);
             Controls.Add(label5);
@@ -210,5 +225,6 @@
         private TextBox passwordBox;
         private Label label6;
         private TextBox emailBox;
+        private Label label4;
     }
 }

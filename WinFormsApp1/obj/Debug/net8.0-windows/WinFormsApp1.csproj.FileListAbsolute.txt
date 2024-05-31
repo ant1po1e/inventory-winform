@@ -26,3 +26,4 @@ C:\Users\symam\source\repos\Final Project\WinFormsApp1\obj\Debug\net8.0-windows\
 C:\Users\symam\source\repos\Final Project\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Dashboard.resources
 C:\Users\symam\source\repos\Final Project\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Inventory.resources
 C:\Users\symam\source\repos\Final Project\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.ViewInventory.resources
+C:\Users\symam\source\repos\Final Project\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.sourcelink.json
