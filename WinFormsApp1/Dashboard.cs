@@ -21,5 +21,32 @@ namespace WinFormsApp1
             usernameLabel.Text = username;
             loggedUsername = username;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            LoginForm login = new LoginForm();
+            login.Show();
+            this.Hide();
+        }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
+            timeNowText.Text = DateTime.Now.ToLongTimeString();
+            dateNowText.Text = DateTime.Now.ToLongDateString();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timeNowText.Text = DateTime.Now.ToLongTimeString();
+            timer1.Start();
+        }
+
+        private void goToInventory_Click(object sender, EventArgs e)
+        {
+            Inventory inventory = new Inventory(loggedUsername);
+            inventory.Show();
+            this.Hide();
+        }
     }
 }

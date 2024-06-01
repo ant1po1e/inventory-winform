@@ -16,13 +16,15 @@ namespace WinFormsApp1
     public partial class Inventory : Form
     {
         SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-44VPTOK;Initial Catalog=""Final Project"";Integrated Security=True;TrustServerCertificate=True");
-        string query = "SELECT id as ID, name AS Name, description AS Description, image AS Image, total AS Total FROM inventory";
+        string query = "SELECT id as '#', name AS Name, description AS Description, image AS Image, total AS Total FROM inventory";
 
+        private string loggedUsername;
         private int key;
 
-        public Inventory()
+        public Inventory(string loggedUsername)
         {
             InitializeComponent();
+            this.loggedUsername = loggedUsername;
         }
 
         private void Inventory_Load(object sender, EventArgs e)
