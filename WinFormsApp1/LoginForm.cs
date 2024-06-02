@@ -13,7 +13,7 @@ namespace WinFormsApp1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void roundedButton1_Click(object sender, EventArgs e)
         {
             if (IsValid())
             {
@@ -95,5 +95,7 @@ namespace WinFormsApp1
         {
 
         }
+
+        
     }
 }

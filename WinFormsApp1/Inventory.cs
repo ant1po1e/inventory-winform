@@ -5,8 +5,8 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
 using System.Linq;
-using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -113,6 +113,7 @@ namespace WinFormsApp1
             descriptionBox.Text = "";
             pictureBox1.Image = null;
             totalBox.Value = 0;
+            idBox.Text = "";
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -157,23 +158,19 @@ namespace WinFormsApp1
         }
 
         private void InsertData()
-        {
-            Image img = pictureBox1.Image;
-            byte[] arr;
-            ImageConverter converter = new ImageConverter();
-            arr = (byte[])converter.ConvertTo(img, typeof(byte[]));
-
-
+        { 
             if (IsValid())
             {
                 try
                 {
+                    byte[] imageBytes = ConvertImageToBytes(pictureBox1.Image);
+
                     conn.Open();
 
                     SqlCommand cmd = new SqlCommand("INSERT INTO inventory (name, description, image, total) VALUES (@name, @desc, @img, @total)", conn);
                     cmd.Parameters.AddWithValue("@name", nameBox.Text);
                     cmd.Parameters.AddWithValue("@desc", descriptionBox.Text);
-                    cmd.Parameters.AddWithValue("@img", arr);
+                    cmd.Parameters.AddWithValue("@img", imageBytes);
                     cmd.Parameters.AddWithValue("@total", totalBox.Text);
 
                     cmd.ExecuteNonQuery();
@@ -194,21 +191,18 @@ namespace WinFormsApp1
 
         private void UpdateData()
         {
-            Image img = pictureBox1.Image;
-            byte[] arr;
-            ImageConverter converter = new ImageConverter();
-            arr = (byte[])converter.ConvertTo(img, typeof(byte[]));
-
             if (IsValid())
             {
                 try
                 {
+                    byte[] imageBytes = ConvertImageToBytes(pictureBox1.Image);
+
                     conn.Open();
 
                     SqlCommand cmd = new SqlCommand("UPDATE inventory SET name = @name, description = @desc, image = @img, total = @total WHERE id = @ID", conn);
                     cmd.Parameters.AddWithValue("@name", nameBox.Text);
                     cmd.Parameters.AddWithValue("@desc", descriptionBox.Text);
-                    cmd.Parameters.AddWithValue("@img", arr);
+                    cmd.Parameters.AddWithValue("@img", imageBytes);
                     cmd.Parameters.AddWithValue("@total", totalBox.Text);
                     cmd.Parameters.AddWithValue("@ID", key);
 
@@ -254,6 +248,18 @@ namespace WinFormsApp1
                 }
             }
         }
+
+        private byte[] ConvertImageToBytes(Image image)
+        {
+            if (image == null)
+                throw new ArgumentNullException("Image cannot be null");
+
+            using (MemoryStream ms = new MemoryStream())
+            {
+                image.Save(ms, image.RawFormat);
+                return ms.ToArray();
+            }
+        } 
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {

@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Controls\RoundedButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RoundedTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Update="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -12,9 +18,6 @@
     </Compile>
     <Compile Update="RegisterForm.cs">
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Round.cs">
-      <SubType>Component</SubType>
     </Compile>
     <Compile Update="ViewInventory.cs">
       <SubType>Form</SubType>
