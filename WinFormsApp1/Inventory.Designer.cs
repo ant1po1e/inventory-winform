@@ -187,9 +187,10 @@
             Controls.Add(button1);
             Controls.Add(dataGridView1);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Inventory";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Inventory";
+            Text = "M-One Inventory | Edit Inventory";
             Load += Inventory_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)totalBox).EndInit();

@@ -205,9 +205,10 @@
             Controls.Add(usernameBox);
             Controls.Add(passwordBox);
             Font = new Font("Nirmala UI", 9.818182F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "RegisterForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "RegisterForm";
+            Text = "M-One Inventory | Register";
             ResumeLayout(false);
             PerformLayout();
         }

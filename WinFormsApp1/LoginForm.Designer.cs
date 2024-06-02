@@ -183,9 +183,10 @@
             Controls.Add(passwordBox);
             Font = new Font("Nirmala UI", 9.818182F, FontStyle.Regular, GraphicsUnit.Point, 0);
             ForeColor = Color.Black;
+            FormBorderStyle = FormBorderStyle.None;
             Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Login";
+            Text = "M-One Inventory | Login";
             ResumeLayout(false);
             PerformLayout();
         }

@@ -48,5 +48,12 @@ namespace WinFormsApp1
             inventory.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ViewInventory viewInventory = new ViewInventory();
+            viewInventory.Show();
+            this.Hide();
+        }
     }
 }

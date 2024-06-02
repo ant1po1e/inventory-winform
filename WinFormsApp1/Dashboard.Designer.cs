@@ -36,6 +36,7 @@
             dateNowText = new Label();
             timeNowText = new Label();
             timer1 = new System.Windows.Forms.Timer(components);
+            button2 = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -113,14 +114,27 @@
             timer1.Enabled = true;
             timer1.Tick += timer1_Tick;
             // 
+            // button2
+            // 
+            button2.BackColor = Color.White;
+            button2.Location = new Point(477, 156);
+            button2.Name = "button2";
+            button2.Size = new Size(207, 177);
+            button2.TabIndex = 4;
+            button2.Text = "View Inventory";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
             // Dashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightGray;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
             Controls.Add(panel1);
             Controls.Add(goToInventory);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Dashboard";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Dashboard";
@@ -139,5 +153,6 @@
         private Label timeNowText;
         private System.Windows.Forms.Timer timer1;
         private Label dateNowText;
+        private Button button2;
     }
 }
