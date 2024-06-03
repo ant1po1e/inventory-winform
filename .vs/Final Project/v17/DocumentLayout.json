@@ -3,16 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\symam\\source\\repos\\Final Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\symam\\source\\repos\\Final Project\\winformsapp1\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\symam\\source\\repos\\Final Project\\winformsapp1\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\symam\\source\\repos\\final project\\winformsapp1\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\symam\\source\\repos\\Final Project\\winformsapp1\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\symam\\source\\repos\\final project\\winformsapp1\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\symam\\source\\repos\\final project\\winformsapp1\\controls\\custompicturebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controls\\custompicturebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\symam\\source\\repos\\final project\\winformsapp1\\controls\\customcombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controls\\customcombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\symam\\source\\repos\\final project\\winformsapp1\\controls\\customradiobutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controls\\customradiobutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\symam\\source\\repos\\final project\\winformsapp1\\controls\\customdatetimepicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controls\\customdatetimepicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\symam\\source\\repos\\final project\\winformsapp1\\controls\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controls\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\symam\\source\\repos\\final project\\winformsapp1\\controls\\customcheckbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controls\\customcheckbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\symam\\source\\repos\\Final Project\\winformsapp1\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\symam\\source\\repos\\Final Project\\winformsapp1\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\symam\\source\\repos\\final project\\winformsapp1\\controls\\customprogressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controls\\customprogressbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\symam\\source\\repos\\Final Project\\winformsapp1\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\symam\\source\\repos\\Final Project\\winformsapp1\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -23,7 +63,7 @@
       "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\viewinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\symam\\source\\repos\\final project\\winformsapp1\\viewinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\symam\\source\\repos\\Final Project\\winformsapp1\\viewinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\viewinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,28 +79,8 @@
       "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\symam\\source\\repos\\Final Project\\winformsapp1\\controls\\roundedtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controls\\roundedtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\symam\\source\\repos\\Final Project\\winformsapp1\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\symam\\source\\repos\\Final Project\\winformsapp1\\controls\\roundedbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controls\\roundedbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\symam\\source\\repos\\Final Project\\winformsapp1\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\symam\\source\\repos\\Final Project\\winformsapp1\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\symam\\source\\repos\\Final Project\\winformsapp1\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2765D57B-00DF-4C45-9697-BDCBBE90F3AE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,11 +90,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "RegisterForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\RegisterForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\RegisterForm.cs",
@@ -87,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\LoginForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\LoginForm.cs",
@@ -100,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "Inventory.cs [Design]",
               "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Inventory.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Inventory.cs",
@@ -113,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "ViewInventory.cs [Design]",
               "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\ViewInventory.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\ViewInventory.cs",
@@ -126,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Dashboard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Dashboard.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Dashboard.cs",
@@ -139,7 +159,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomPictureBox.cs",
+              "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Controls\\CustomPictureBox.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Controls\\CustomPictureBox.cs",
+              "ToolTip": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Controls\\CustomPictureBox.cs",
+              "RelativeToolTip": "WinFormsApp1\\Controls\\CustomPictureBox.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAmwHgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T05:10:17.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomComboBox.cs",
+              "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Controls\\CustomComboBox.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Controls\\CustomComboBox.cs",
+              "ToolTip": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Controls\\CustomComboBox.cs",
+              "RelativeToolTip": "WinFormsApp1\\Controls\\CustomComboBox.cs",
+              "ViewState": "AQIAAC4BAAAAAAAAAAAswC0BAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T05:03:27.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "CustomRadioButton.cs",
+              "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Controls\\CustomRadioButton.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Controls\\CustomRadioButton.cs",
+              "ToolTip": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Controls\\CustomRadioButton.cs",
+              "RelativeToolTip": "WinFormsApp1\\Controls\\CustomRadioButton.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAAFQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T04:49:40.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomDateTimePicker.cs",
+              "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Controls\\CustomDateTimePicker.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Controls\\CustomDateTimePicker.cs",
+              "ToolTip": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Controls\\CustomDateTimePicker.cs",
+              "RelativeToolTip": "WinFormsApp1\\Controls\\CustomDateTimePicker.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAqwIsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T04:43:42.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomCheckBox.cs",
+              "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Controls\\CustomCheckBox.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Controls\\CustomCheckBox.cs",
+              "ToolTip": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Controls\\CustomCheckBox.cs",
+              "RelativeToolTip": "WinFormsApp1\\Controls\\CustomCheckBox.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAkwH4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T04:34:51.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomProgressBar.cs",
+              "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Controls\\CustomProgressBar.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Controls\\CustomProgressBar.cs",
+              "ToolTip": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Controls\\CustomProgressBar.cs",
+              "RelativeToolTip": "WinFormsApp1\\Controls\\CustomProgressBar.cs",
+              "ViewState": "AQIAAMwAAAAAAAAAAAAAAPoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T04:22:16.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "ViewInventory.cs",
               "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\ViewInventory.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\ViewInventory.cs",
@@ -152,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Inventory.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Inventory.cs",
@@ -165,44 +263,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RoundedTextBox.cs",
-              "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Controls\\RoundedTextBox.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Controls\\RoundedTextBox.cs",
-              "ToolTip": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Controls\\RoundedTextBox.cs",
-              "RelativeToolTip": "WinFormsApp1\\Controls\\RoundedTextBox.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "DocumentIndex": 7,
+              "Title": "CustomButton.cs",
+              "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Controls\\CustomButton.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Controls\\CustomButton.cs",
+              "ToolTip": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Controls\\CustomButton.cs",
+              "RelativeToolTip": "WinFormsApp1\\Controls\\CustomButton.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T02:18:23.699Z"
+              "WhenOpened": "2024-06-02T01:28:29.2Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RoundedButton.cs",
-              "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Controls\\RoundedButton.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Controls\\RoundedButton.cs",
-              "ToolTip": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Controls\\RoundedButton.cs",
-              "RelativeToolTip": "WinFormsApp1\\Controls\\RoundedButton.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAswEsAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T01:28:29.2Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "RegisterForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\RegisterForm.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\RegisterForm.Designer.cs",
               "ToolTip": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\RegisterForm.Designer.cs",
               "RelativeToolTip": "WinFormsApp1\\RegisterForm.Designer.cs",
-              "ViewState": "AQIAAHEAAAAAAAAAAAAgwH4AAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T08:46:42.724Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Program.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
@@ -210,24 +297,24 @@
               "RelativeToolTip": "WinFormsApp1\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T08:00:21.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T08:00:21.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\LoginForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\LoginForm.cs",
               "ToolTip": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\LoginForm.cs",
               "RelativeToolTip": "WinFormsApp1\\LoginForm.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAswGIAAAAIAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwDUAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T05:46:22.976Z"
+              "WhenOpened": "2024-05-23T05:46:22.976Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "Dashboard.cs",
               "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\Dashboard.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Dashboard.cs",
@@ -240,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "RegisterForm.cs",
               "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\RegisterForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\RegisterForm.cs",
@@ -253,13 +340,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "LoginForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\LoginForm.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\LoginForm.Designer.cs",
               "ToolTip": "C:\\Users\\symam\\source\\repos\\Final Project\\WinFormsApp1\\LoginForm.Designer.cs",
               "RelativeToolTip": "WinFormsApp1\\LoginForm.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T05:26:17.659Z",
               "EditorCaption": ""

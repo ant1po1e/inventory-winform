@@ -154,5 +154,6 @@
         private System.Windows.Forms.Timer timer1;
         private Label dateNowText;
         private Button button2;
+        private Controls.CustomComboBox customComboBox1;
     }
 }

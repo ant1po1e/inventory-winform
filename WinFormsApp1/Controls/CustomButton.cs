@@ -10,13 +10,13 @@ using System.ComponentModel;
 
 namespace WinFormsApp1.Controls
 {
-    public class RoundedButton : Button
+    public class CustomButton : Button
     {
         private int borderSize = 0;
         private int borderRadius = 40;
         private Color borderColor = Color.PaleVioletRed;
 
-        [Category("Rounded Button Settings")]
+        [Category("Settings")]
         public int BorderSize
         {
             get => borderSize;
@@ -27,7 +27,7 @@ namespace WinFormsApp1.Controls
             }
         }
 
-        [Category("Rounded Button Settings")]
+        [Category("Settings")]
         public int BorderRadius
         {
             get => borderRadius;
@@ -40,7 +40,7 @@ namespace WinFormsApp1.Controls
             }
         }
 
-        [Category("Rounded Button Settings")]
+        [Category("Settings")]
         public Color BorderColor
         {
             get => borderColor;
@@ -51,21 +51,21 @@ namespace WinFormsApp1.Controls
             }
         }
 
-        [Category("Rounded Button Settings")]
+        [Category("Settings")]
         public Color BackgroundColor
         {
             get => this.BackColor;
             set => this.BackColor = value;
         }
 
-        [Category("Rounded Button Settings")]
+        [Category("Settings")]
         public Color TextColor
         {
             get => this.ForeColor;
             set => this.ForeColor = value;
         }
 
-        public RoundedButton()
+        public CustomButton()
         {
             this.FlatStyle = FlatStyle.Flat;
             this.FlatAppearance.BorderSize = 0;

@@ -37,7 +37,7 @@
             label1 = new Label();
             label5 = new Label();
             label4 = new Label();
-            roundedButton1 = new Controls.RoundedButton();
+            customButton1 = new Controls.CustomButton();
             SuspendLayout();
             // 
             // usernameBox
@@ -145,25 +145,25 @@
             label4.TabIndex = 16;
             label4.Text = "Login to Continue";
             // 
-            // roundedButton1
+            // customButton1
             // 
-            roundedButton1.BackColor = Color.Black;
-            roundedButton1.BackgroundColor = Color.Black;
-            roundedButton1.BorderColor = Color.Transparent;
-            roundedButton1.BorderRadius = 15;
-            roundedButton1.BorderSize = 0;
-            roundedButton1.FlatAppearance.BorderSize = 0;
-            roundedButton1.FlatStyle = FlatStyle.Flat;
-            roundedButton1.Font = new Font("Nirmala UI", 9.818182F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            roundedButton1.ForeColor = Color.White;
-            roundedButton1.Location = new Point(47, 342);
-            roundedButton1.Name = "roundedButton1";
-            roundedButton1.Size = new Size(199, 40);
-            roundedButton1.TabIndex = 18;
-            roundedButton1.Text = "Login";
-            roundedButton1.TextColor = Color.White;
-            roundedButton1.UseVisualStyleBackColor = false;
-            roundedButton1.Click += roundedButton1_Click;
+            customButton1.BackColor = Color.Black;
+            customButton1.BackgroundColor = Color.Black;
+            customButton1.BorderColor = Color.Transparent;
+            customButton1.BorderRadius = 15;
+            customButton1.BorderSize = 0;
+            customButton1.FlatAppearance.BorderSize = 0;
+            customButton1.FlatStyle = FlatStyle.Flat;
+            customButton1.Font = new Font("Nirmala UI", 9.818182F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            customButton1.ForeColor = Color.White;
+            customButton1.Location = new Point(39, 342);
+            customButton1.Name = "customButton1";
+            customButton1.Size = new Size(207, 40);
+            customButton1.TabIndex = 18;
+            customButton1.Text = "Login";
+            customButton1.TextColor = Color.White;
+            customButton1.UseVisualStyleBackColor = false;
+            customButton1.Click += customButton1_Click;
             // 
             // LoginForm
             // 
@@ -171,7 +171,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(292, 474);
-            Controls.Add(roundedButton1);
+            Controls.Add(customButton1);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label1);
@@ -201,6 +201,6 @@
         private Label label1;
         private Label label5;
         private Label label4;
-        private Controls.RoundedButton roundedButton1;
+        private Controls.CustomButton customButton1;
     }
 }
